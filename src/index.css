@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Navbar styling colour change */
+.navbar{
+  background-color: rgb(88, 173, 230);
+}
+/* Navbar items to right */
+.nav-item{
+  margin-right: 70px;
+}
+.navbar-nav{
+  margin-left: 800px;
+}
+/*carousel image styling*/
+.d-block 
+{
+  width: 100%;
+  height: 500px;
+  padding: 5%;
+}
+/* entire row colour change */
+.caro{
+  background-color: orange;
+}
+/* carousel row styling */
+.caro1{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  padding: 20%;
+  color: rgb(33, 71, 161);
+}
+
+
+.login1{
+  border-style: groove;
+  border-radius: 5px;
+  width: 400px;
+  height: 300px;
+  background-color: orange;
+
+}
+.login{
+  background-color: rgb(33, 71, 161);
+  height: 500px;
+}
+
+.register1{
+  background-color: rgb(33, 71, 161);
+  height: 550px;
+}
+.card-body{
+  border-style: groove;
+  background-color: orange;
+  border-radius: 5px;
+  width: 400px;
+  height: 500px;
+}
+
+
+

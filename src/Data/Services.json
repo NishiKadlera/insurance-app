@@ -1,0 +1,21 @@
+[
+    {
+        "title":"Home Insurance",
+        "img":"https://img.freepik.com/free-vector/car-insurance-with-umbrella-protection_7087-1027.jpg?w=1060",
+        "Description":"  Owning your own home is both a privilege and a responsibility. Signing the purchase deed is just the beginning. Before you can call your home a home, there’s a lot of work to be done. It is a process that can be as gratifying as it is back breaking. Poring through interior design magazines, consulting painters and designers, buying distinct art pieces from near and far and finally putting it all together into a wholesome ensemble can take many weeks, if not months.",
+        "Benifits": " Cashless claims, Personal accident cover, Loss/damage protection"
+    },
+    {
+        "title":"Vehicle Insurance",
+        "img":"https://img.freepik.com/free-vector/car-insurance-with-umbrella-protection_7087-1027.jpg?w=1060",
+        "Description":"  It is a contract that is drawn between the vehicle owner and the insurance company that covers both comprehensive policy and third-party liability.",
+        "Benifits": " Cashless claims, Personal accident cover, Loss/damage protection"
+    },
+    {
+        "title":"Health Insurance",
+        "img":"https://img.freepik.com/free-vector/car-insurance-with-umbrella-protection_7087-1027.jpg?w=1060",
+        "Description":" Health insurance is like a financial security that you have for handling your medical expenses.",
+        "Benifits": " Cashless claims, Personal accident cover, Loss/damage protection"
+    }
+]
+
