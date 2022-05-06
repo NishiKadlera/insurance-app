@@ -38,11 +38,11 @@ function RegistrationForm() {
       
     }
     return (
-      <div className="login"><br/>  
+      <div className="login"><br/> <br /> 
         <form onSubmit={handlesubmit} >
         <center>        
           <div className="login1">
-          <h1 >Login</h1>   <br />        
+          <h2>Login Form</h2>   <br />        
           <div className="field">
             <label htmlFor=""><strong>Email</strong> </label> <br />
             <input className='pre' type="email" name="email" id="" value={data.email} onChange={click} placeholder='email' />

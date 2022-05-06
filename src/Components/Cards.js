@@ -1,37 +1,57 @@
-import React from "react";
-import emp from "../Data/Services.json";
+// / import React from 'react'
 
-const Services=() => {
-  const Services1= (record,i) =>
+
+// export default function Infocard() {
+//   return (
+//     <div>
+// Infocard</div>
+//   )
+// }
+
+
+import React from 'react'
+import Data from '../Data/Services.json'
+import '../Styling/Card.css';
+
+
+const Infocard =() => {
+  
+
+  const InfocardCards =(cards,i) =>
   {
-  return (             
+    return(
+      
+    
+      <div className="col-md-4 Infocard ">
+        <center><div className="" key={i}>
+          <div className='card info'>
+        <img src={cards.img} class="image" />
+          <div className=" card-body insure">
+                  <h3 className="card-title">{cards.title}</h3>
+            <p className="card-text">{cards.Description}</p>
+            <p className="card-Benifits"> <strong>Benifits:</strong>{cards.Benifits}</p>
+            <center><a href="#" className="btn btn-light">Take Me There</a></center>
+          </div>
+          </div>
+        </div></center>
+      </div>  
+    )
 
-            <div className="col-md-4">
-              <div className="card" style="width: 18rem;" key={i}>
-                <div class="card-body">
-                <img src={record.img} class="card-img-top" alt="..." />
-                  <div className="card-title">{record.title}</div>
-                  <div className="card-des">{record.Designation}</div>
-                  <div className="card-benifits">{record.Benifits}</div>
-                  <div> <a href="#" class="btn btn-primary">Take Me There</a></div>
-                </div>    
-              </div>
-            </div>
+  }
+
+  return(
+    <>
+    <div className="container-fluid mutitle">
+      <h1 id='mutitle'>Services</h1>
+
+    <div className='row'>
+      {Data.map(InfocardCards)}
+
+      </div>
+  </div>
+  </>
+    
   )
 }
-return(
-  <>
-  <div className="container-fluid mutxt">
-    <h1 id='mutitle'>Services</h1>
-   <i> <p id='mutag'>Get Loans with Attractive ROI and EMI</p></i><br></br>
-  <div className='row'>
-    {emp.map(Services1)}
 
-    </div>
-</div>
-</>
-  
-)
-
-};
-export default Services;
+export default Infocard;

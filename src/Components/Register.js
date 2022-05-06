@@ -102,7 +102,7 @@ export default class Form extends Component {
             
             <center className="register">
                 <div className="register1"><br />
-                    <form className="card-body" onSubmit={this.onFormSubmit}>
+                    <form className="card-body reg" onSubmit={this.onFormSubmit}>
                         <h1>Registration Form</h1>
                        
                         <div className="form-group mb-3">
