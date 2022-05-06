@@ -1,8 +1,9 @@
 import React from "react";
-import Home from "../assets/HomeInsure.webp"
-import Car from "../assets/CarInsure.jpg"
-import Health from "../assets/HealthInsure.webp"
-import JsonDataDisplay from "./Cards";
+import Home from "../assets/HomeInsure.webp";
+import Car from "../assets/CarInsure.jpg";
+import Health from "../assets/HealthInsure.webp";
+
+
 
 function Carousel() {
   return (

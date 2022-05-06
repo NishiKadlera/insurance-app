@@ -1,26 +1,37 @@
 import React from "react";
 import emp from "../Data/Services.json";
 
-function Services1() {
-  return (
-    <div className="col-md-4">
-      {emp.map((record, i) => (
-        <div key={i}>
-          <div className="row">
+const Services=() => {
+  const Services1= (record,i) =>
+  {
+  return (             
+
             <div className="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <img src={record.img} class="card-img-top" alt="..." />
+              <div className="card" style="width: 18rem;" key={i}>
                 <div class="card-body">
-                  <div className="col-md-4">{record.title}</div>
-                  <div className="col-md-4">{record.Designation}</div>
-                  <div className="col-md-4">{record.Benifits}</div>    
-                </div>
+                <img src={record.img} class="card-img-top" alt="..." />
+                  <div className="card-title">{record.title}</div>
+                  <div className="card-des">{record.Designation}</div>
+                  <div className="card-benifits">{record.Benifits}</div>
+                  <div> <a href="#" class="btn btn-primary">Take Me There</a></div>
+                </div>    
               </div>
             </div>
-          </div>
-        </div>
-      ))}
-    </div>
-  );
+  )
 }
-export default Services1;
+return(
+  <>
+  <div className="container-fluid mutxt">
+    <h1 id='mutitle'>Services</h1>
+   <i> <p id='mutag'>Get Loans with Attractive ROI and EMI</p></i><br></br>
+  <div className='row'>
+    {emp.map(Services1)}
+
+    </div>
+</div>
+</>
+  
+)
+
+};
+export default Services;
