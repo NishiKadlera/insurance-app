@@ -1,12 +1,8 @@
 import React, { Component } from "react";
 
 const regularExpression = RegExp(/^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/)
-//The three dots (…) notation referred to as the 
-//Spread syntax has been part of React for a long time when it could be used via transpilation, 
-//although, it has been made a part of JavaScript as part of the ES2015 syntax.
-//The Spread syntax is used to deconstruct an array or object into separate variables
-// where the exact number of elements in the array may not be known or when we wish
-// to keep an attribute or a set of attributes separate from the entire object.
+const regularExpression1 = RegExp(/^[6-9]\d{9}$/)
+ 
 const validation = ({ error, ...rest }) => {
     let checkValidation = false;
 
@@ -68,21 +64,20 @@ export default class Form extends Component {
 
         switch (name) {
             case "name":
-                error.name = value.length < 5 ? "Name should be 5 characters long" : "";
+                error.name = value.length < 5 ?  "Name should be 5 characters long" : "";
                 break;
             case "email":
                 error.email = regularExpression.test(value)
                     ? ""
                     : "Email is not valid";
                 break;
-                case "mobile":
-                error.mobile = regularExpression.test(value)
+            case "mobile":
+                error.mobile = regularExpression1.test(value)
                     ? ""
                     : "number is not valid";
                 break;
             case "password":
-                error.password =
-                    value.length < 5 ? "Password should 5 characters long" : "";
+                error.password = value.length < 5 ? "Password should 5 characters long" : "";
                 break;
             default:
                 break;
@@ -103,7 +98,7 @@ export default class Form extends Component {
             <center className="register">
                 <div className="register1"><br />
                     <form className="card-body reg" onSubmit={this.onFormSubmit}>
-                        <h1>Registration Form</h1>
+                        <h3>Registration Form</h3>
                        
                         <div className="form-group mb-3">
                             <label className="mb-2"><strong>Username</strong></label>
@@ -141,8 +136,8 @@ export default class Form extends Component {
                                onChange={this.formObject}
                                className={error.mobile.length > 0 ? "is-invalid form-control" : "form-control"}/>
                             
-                                {error.name.length > 0 && (
-                                <span className="invalid-feedback">{error.name}</span>
+                                {error.mobile.length > 0 && (
+                                <span className="invalid-feedback">{error.mobile}</span>
                                 )}
                         </div>
 

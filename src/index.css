@@ -13,7 +13,7 @@ code {
 }
 /* Navbar styling colour change */
 .navbar{
-  background-color: rgb(88, 173, 230);
+  background-color: #0a649d;
 }
 /* Navbar items to right */
 .nav-item{
@@ -31,7 +31,7 @@ code {
 }
 /* entire row colour change */
 .caro{
-  background-color: #e7e6e4;
+  background-color: #65bedb;
 }
 /* carousel row styling */
 .caro1{
@@ -44,25 +44,26 @@ code {
 
 
 .login1{
-  border-style: groove;
   border-radius: 5px;
-  width: 400px;
-  height: 300px;
-  background-color: orange;
+  width: 300px;
+  height: 350px;
+  background-color:  #0a649d;
 
 }
 .login{
-  background-color: rgb(33, 71, 161);
-  height: 400px;
+  background-color: #65bedb;
+  height: 500px;
+}
+.success{
+  text-align: center;
 }
 
 .register1{
-  background-color: rgb(33, 71, 161);
+  background-color:  #65bedb;
   height: 550px;
 }
 .card-body.reg{
-  border-style: groove;
-  background-color: orange;
+  background-color:  #0a649d;
   border-radius: 5px;
   width: 400px;
   height: 500px;

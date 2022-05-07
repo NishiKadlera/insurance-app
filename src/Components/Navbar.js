@@ -45,19 +45,19 @@ function Navbar() {
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="HomeInsurance">
                       Home Insurance
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="VehicleInsurance">
                     Vehicle Insurance
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="HealthInsurance">
                       Health Insurance
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>

@@ -1,23 +1,27 @@
-
-  image{
-    width: 300px;
-    height: 350px;
-    border-radius: 50%;
-    
-  }
-  #mutitle{
-      text-align: center;
-  }
-  .mutitle{
-    background-color: #447bc9;
-  }
-  .insure{
-    text-align: left;
-  }
-  .card-title{
-    text-align: center;
-  }
-  .info{
-    border-style: groove;
-    
-  }
+.image{
+  width: 250px;
+  height: 200px;
+  border-radius: 5%;
+}
+.info{
+ transition: 1s;
+ border-color: transparent;
+}
+#mutitle{
+  text-align: center;
+}
+.mutitle{
+  height: 600px;
+  background-color: #447bc9;
+ 
+}
+.insure{
+  background-color: #f7c3a5;
+  border-style: groove;
+}
+.insure:hover{
+  background-color: #65bedb;
+}
+.col-md-4{
+  border-color: transparent;
+}

@@ -1,15 +1,16 @@
-.enquiry1{
-    width: 600px;
-    height: 400px;
-    border-style: groove;
-    border-radius: 5%;
-    background-color: orange;
-    
-    
-}
+
 .enquiry{
-    background-color: rgb(33, 71, 161);
+    background-color: #65bedb;
     height: 600px;
+}
+.enquiry1{
+    background-color:  #0a649d;   
+}
+.card{
+    border-color: transparent;
+} 
+.form-label{
+ font-weight: 500;
 }
 
 

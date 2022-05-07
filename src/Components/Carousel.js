@@ -4,6 +4,7 @@ import Car from "../assets/CarInsure.jpg";
 import Health from "../assets/HealthInsure.webp";
 import {Link} from "react-router-dom";
 import Infocard from "./Cards";
+import Reviews from "./Reviews";
 
 function Carousel() {
   return (
@@ -48,6 +49,7 @@ function Carousel() {
   </div>
 </div>
 <Infocard/>
+<Reviews/>
     </div>
      
   );

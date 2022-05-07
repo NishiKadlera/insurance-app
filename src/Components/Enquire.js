@@ -5,9 +5,9 @@ function Enquire() {
   return (
     <div className="container-fluid enquiry"><br /><br /><br />
         <center>
-    <div className=" col-md-6 card enquiry1 ">
+    <div className=" col-md-6 card  ">
         
-  <div className="card-body ">
+  <div className="card-body enquiry1">
       <h4>Enquiry Form</h4> 
       <form className="">
       <div>

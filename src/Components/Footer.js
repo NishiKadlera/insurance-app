@@ -10,7 +10,7 @@ function Footer()
     <div className="container-fluid p-0">
     <div className="row text-left">
       <div className="col-md-4">
-        <h1>Stay safe with Stay Secure</h1>
+        <h3>Stay Secure</h3>
         <i className="fa-brands fa-instagram"></i>
         <i className="fa-brands fa-facebook"></i>
         <i className="fa-brands fa-twitter-square"></i>
