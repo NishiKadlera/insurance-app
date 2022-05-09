@@ -11,12 +11,12 @@
   text-align: center;
 }
 .mutitle{
-  height: 600px;
-  background-color: #447bc9;
+  height: 550px;
+  background-color: white;
  
 }
 .insure{
-  background-color: #f7c3a5;
+  background-color: #0a649d;
   border-style: groove;
 }
 .insure:hover{

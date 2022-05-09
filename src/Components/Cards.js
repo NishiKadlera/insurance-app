@@ -21,7 +21,7 @@ const Infocard = () => {
              <div className="text-center"><h3 className="card-title">{cards.title}</h3></div>
               <p className="card-text">{cards.Description}</p>
               <p className="card-Benifits"><strong>Benifits:</strong>{cards.Benifits}</p>
-                <div className="text-center"><a href="#" className="btn btn-primary">Take Me There</a>  </div> 
+                <div className="text-center"><a href={cards.link} className="btn btn-primary">Take Me There</a>  </div> 
             </div>
           </div>
       </div>

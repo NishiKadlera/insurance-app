@@ -1,11 +1,3 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -31,7 +23,7 @@ code {
 }
 /* entire row colour change */
 .caro{
-  background-color: #65bedb;
+  background-color: orange;
 }
 /* carousel row styling */
 .caro1{
@@ -51,7 +43,7 @@ code {
 
 }
 .login{
-  background-color: #65bedb;
+  background-color: white;
   height: 500px;
 }
 .success{
@@ -59,7 +51,7 @@ code {
 }
 
 .register1{
-  background-color:  #65bedb;
+  background-color: white;
   height: 550px;
 }
 .card-body.reg{

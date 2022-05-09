@@ -1,72 +1,81 @@
 import React from "react";
 import "../Styling/HomeInsure.css";
 import Home1 from "../assets/Home1.webp";
+import household from "../assets/household.webp";
+import notepad from "../assets/notepad.webp";
+import car from "../assets/car.webp";
+import claim from "../assets/claim.webp";
+
+import { Link } from "react-router-dom";
+// import { Button } from "bootstrap";
+
 
 function HomeInsurance() {
   return (
     <div>
-      <div></div>
-      <div class="container">
-  <div class="row Home1">
-    <div class="col-md-4">
-    <div class="card Home2">
-  <img src={Home1} class="card-img-top Home4" alt="..."/>
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+     
+      <div className="container-fluid Home2">
+      <h1 className="Home5"> Home Insurance</h1>
+      <h3 className="types">Types of Home Insurance</h3>
+  <div className="row Home1">
+    <div className="col-md-4">
+    {/* <div className="card Home2"> */}
+  <img src={Home1} className="card-img-top Home4" alt="..."/>
+  <div className="card-body">
+    <h4 className="card-text types1">MY HOME</h4>
+     <center><button className="btn btn-dark"> <a href="https://rzp.io/i/3DFGiH2">Buy</a></button > &nbsp; <button className="btn btn-dark"><a href="claim1">Claim Here</a> </button> &nbsp; <button className="btn btn-dark"><a href="renew" >Additional Details</a></button> </center>
+  </div>
+{/* </div> */}
+    </div>
+    <div className="col-md-4">
+    {/* <div className="card"> */}
+  <img src={household} className="card-img-top Home4" alt="..."/>
+  <div className="card-body">
+    <h4 className="card-text types1">MY HOUSEHOLDS</h4>
+    <center><button className="btn btn-dark"> <a href="https://rzp.io/i/JWHptktM">Buy</a></button > &nbsp; <button className="btn btn-dark"><a href="claim1">Claim Here</a> </button> &nbsp; <button className="btn btn-dark"><a href="renew" >Additional Details</a></button> </center>
   </div>
 </div>
-    </div>
-    <div class="col-md-4">
-    <div class="card">
-  <img src={Home1} class="card-img-top" alt="..."/>
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
-    </div>
-    <div class="col-md-4">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    {/* </div> */}
+    <div className="col-md-4">
+    <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+  <div className="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src={Home1} class="d-block w-100 Home3" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src={notepad} className="d-block w-100 Home3" alt="..."/>
+      <div className="carousel-caption d-none d-md-block">
+        <h4 className="color">Useful add-ons to customize your policy for total protection</h4>
       </div>
     </div>
-    <div class="carousel-item">
-      <img src={Home1} class="d-block w-100 Home3" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+    <div className="carousel-item">
+      <img src={car} className="d-block w-100 Home3" alt="..."/>
+      <div className="carousel-caption d-none d-md-block">
+        <h4 className="color">Options of coverage term from 1 day to 5 years</h4>
       </div>
     </div>
-    <div class="carousel-item">
-      <img src={Home1} class="d-block w-100 Home3" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+    <div className="carousel-item">
+      <img src={claim} className="d-block w-100 Home3" alt="..."/>
+      <div className="carousel-caption d-none d-md-block">
+        <h4 className="color">Easy claim settlement</h4>
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
   </button>
 </div>
     </div>
   </div>
 </div>
-        
+   
     </div>
   );
 }

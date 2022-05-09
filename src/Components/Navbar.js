@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Stay Secure
+            SafeSure Insurance
           </a>
           <button
             className="navbar-toggler"
