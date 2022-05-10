@@ -2,9 +2,30 @@
     height: 500px; 
 }
 .Home3{
-    border-radius: 50%;
-    border-color: black;
+    border-radius: 80%; 
+    width: 150px;
+    height: 300px;
 }
-.Home3{
-    border-radius: 80%;
+.carcap{
+    color: orange;
+}
+.Home5{
+    text-align: center;
+    color: orange;
+}
+.Home2{
+    background-color: white;
+}
+.types{
+    text-align: center;
+}
+.types1{
+    text-align: center;
+    color: orange;
+}
+.home4{
+    height: 200px;
+}
+.but{
+    
 }

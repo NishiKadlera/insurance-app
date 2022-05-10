@@ -1,0 +1,12 @@
+.border{
+    border-style: groove;
+    background-color:#0a649d;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+.but{
+    background-color: orange;
+    color: black;
+}

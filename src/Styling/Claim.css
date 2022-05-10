@@ -1,0 +1,31 @@
+.Claim1{
+    background-color: #65bedb;
+    height: 500px;
+}
+.phone{
+    font-size: 53px;
+}
+.Phone{
+    text-align: center;
+}
+.Email{
+    text-align: center;
+}
+.Email-title{
+    font-size: 55px;
+}
+.form-title{
+    font-size: 60px;
+}
+.shape{
+    border-radius: 50%;
+}
+.heading{
+    text-align: center;
+}
+.bot{
+    background-color: rgb(7, 100, 140);
+    color: white;
+    text-decoration: none;
+}
+.form{text-align: center;}

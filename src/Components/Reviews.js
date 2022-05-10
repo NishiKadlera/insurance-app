@@ -11,7 +11,7 @@ const Reviews =() => {
     return(
     
       <div className="col-md-3 ">
-        <div className="card rev" key={i}>
+        <div className="" key={i}>
           <div className="card-body rev1">
          <div className="text-center"><img src={records.img} className="img1" /></div>
          <div className="text-center"><h3 className="card-Name">{records.Name}</h3></div>

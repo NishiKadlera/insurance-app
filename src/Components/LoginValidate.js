@@ -60,12 +60,12 @@ function RegistrationForm() {
           <h2>Login Form</h2>   <br />        
           <div className="field">
             <label><strong>Email</strong> </label> <br />
-            <input className='pre' type="email" name="email" value={data.email} onChange={click} placeholder='email' />
+            <input className='pre' type="email" name="email" value={data.email} onChange={click} placeholder='Enter your Email' />
           </div>
           <p>{error.email}</p>
           <div className="field">
             <label><strong>Password</strong> </label> <br />
-            <input className='pre'  type="password" name="password" value={data.password} onChange={click} placeholder='password' />
+            <input className='pre'  type="password" name="password" value={data.password} onChange={click} placeholder=' Enter Password' />
           </div>
           <p>{error.password}</p>
            <button className='btn btn-primary'>submit</button>  

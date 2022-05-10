@@ -1,5 +1,15 @@
 .foot{
-    background-color: #aac6d1;
-
-    
+    background-color: #0a649d;
+}
+/* .footer-place{
+    position: fixed;
+} */
+.font{
+    font-size: 30px;
+}
+.foot1{
+    color: white;
+}
+.foot1:hover{
+   color: black;
 }

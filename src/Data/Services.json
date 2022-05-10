@@ -3,19 +3,23 @@
         "title":"Home Insurance",
         "img":"https://img.freepik.com/free-vector/illustration-happy-family_53876-37132.jpg?t=st=1651818274~exp=1651818874~hmac=47026e339d5188cf34b8629b8565f5f75189dcea574c921de44ee48c133e96d8&w=900",
         "Description":"A home insurance policy provides a veritable shield of protection to your home and everything in it, that you hold dear.",
-        "Benifits": " Cashless claims, Personal accident cover, Loss/damage protection"
+        "Benifits": " Cashless claims, Personal accident cover, Loss/damage protection",
+        "link": "http://localhost:3000/HomeInsurance"
     },
     {
         "title":"Vehicle Insurance",
         "img":"https://img.freepik.com/free-vector/people-exchanging-car-tire_53876-43025.jpg?t=st=1651819135~exp=1651819735~hmac=2133e9f291f2b219907ed43b92e6e07de1c509793057539bdb4f94d643948da0&w=996",
         "Description":"  It is a contract that is drawn between the vehicle owner and the insurance company that covers both comprehensive policy and third-party liability.",
-        "Benifits": " Cashless claims, Personal accident cover, Loss/damage protection"
+        "Benifits": " Cashless claims, Personal accident cover, Loss/damage protection",
+        "link": "http://localhost:3000/VehicleInsurance"
     },
     {
         "title":"Health Insurance",
         "img":"https://img.freepik.com/free-vector/illustration-family-healthcare_53876-37222.jpg?t=st=1651818994~exp=1651819594~hmac=c1d2296e61898a97fcc7c3807e5e5bef3443c08044567bb80b2f59ef81304466&w=900",
         "Description":" Health insurance is like a financial security that you have for handling your medical expenses. Health insurance is like a financial security.",
-        "Benifits": " Cashless claims, Personal accident cover, Loss/damage protection"
+        "Benifits": " Cashless claims, Personal accident cover, Loss/damage protection",
+        "link": "http://localhost:3000/HealthInsurance"
+
     }
 ]
 

@@ -4,15 +4,19 @@
     border-radius: 50%;
 }
 .rev1{
-    background-color: #c3c4c7;
+    background-color: orange;
     transition: 0.5s;
     border-color: transparent;
+    border-radius: 10%;
 }
 .rev1:hover{
-    background-color: #ecc49a;
+    background-color: rgb(89, 167, 232);
     transform: scale(1.05);
 }
 .rev2{
-    background-color: #5cb4db;
+    /* background-color: #65bedb; */
     height: 500px;
+}
+.rev{
+    border-color: transparent;
 }

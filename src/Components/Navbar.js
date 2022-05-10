@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Stay Secure
+            SafeSure Insurance
           </a>
           <button
             className="navbar-toggler"
@@ -22,17 +22,22 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
-              <li className="nav-item">
+            <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/">
                   Home
                 </Link>
-              </li>
-              <li className="nav-item">
+              </li> 
+              &nbsp;&nbsp;&nbsp;<li className="nav-item">
                 <Link className="nav-link active" to="login">
                   Login
                 </Link>
               </li>
-              <li className="nav-item dropdown">
+              &nbsp;&nbsp;&nbsp;<li className="nav-item">
+                <Link className="nav-link active" to="mypolicy">
+                  My Policies
+                </Link>
+              </li>
+              &nbsp;&nbsp;&nbsp;<li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle active"
                   href="#"
