@@ -6,10 +6,13 @@
 } */
 .font{
     font-size: 30px;
+<<<<<<< HEAD
 }
 .foot1{
     color: white;
 }
 .foot1:hover{
    color: black;
+=======
+>>>>>>> 2d463311fec6081dd1dd318faa7ede9915a812e5
 }

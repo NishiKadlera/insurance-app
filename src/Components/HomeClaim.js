@@ -1,13 +1,20 @@
 import React from "react";
 import "../Styling/Claim.css"
+<<<<<<< HEAD
 // import Enquiry from "./Enquire";
+=======
+>>>>>>> 2d463311fec6081dd1dd318faa7ede9915a812e5
 
 function Claim() {
   return (
     <div className="container-fluid">
       <div className="row Claim1">
         <h4 className="heading">Claim your Insurance by contacting us via phone or email using the below contact details</h4>
+<<<<<<< HEAD
       {/* <div className="col"></div> */}
+=======
+      <div className="col"></div>
+>>>>>>> 2d463311fec6081dd1dd318faa7ede9915a812e5
         <div className="col">
           {/* <div className="card"> */}
             <div className="card-body Phone">
@@ -30,6 +37,7 @@ function Claim() {
             </div>
           {/* </div> */}
         </div>
+<<<<<<< HEAD
         <div className="col">
           {/* <div className="card"> */}
             <div className="card-body form">
@@ -42,6 +50,9 @@ function Claim() {
           {/* </div> */}
         </div>
         {/* <div className="col"></div> */}
+=======
+        <div className="col"></div>
+>>>>>>> 2d463311fec6081dd1dd318faa7ede9915a812e5
       </div>
     </div>
   );

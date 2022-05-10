@@ -1,5 +1,9 @@
 .Claim1{
+<<<<<<< HEAD
     background-color: #65bedb;
+=======
+    background-color: white;
+>>>>>>> 2d463311fec6081dd1dd318faa7ede9915a812e5
     height: 500px;
 }
 .phone{
@@ -14,14 +18,18 @@
 .Email-title{
     font-size: 55px;
 }
+<<<<<<< HEAD
 .form-title{
     font-size: 60px;
 }
+=======
+>>>>>>> 2d463311fec6081dd1dd318faa7ede9915a812e5
 .shape{
     border-radius: 50%;
 }
 .heading{
     text-align: center;
+<<<<<<< HEAD
 }
 .bot{
     background-color: rgb(7, 100, 140);
@@ -29,3 +37,6 @@
     text-decoration: none;
 }
 .form{text-align: center;}
+=======
+}
+>>>>>>> 2d463311fec6081dd1dd318faa7ede9915a812e5
