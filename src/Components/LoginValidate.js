@@ -31,16 +31,16 @@ function RegistrationForm() {
       const errors={};
       const regex=/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
       if(!values.email){
-        errors.email="Email required!";
+        errors.email=<p style={{color:"red"}}>Email required!</p>;
       } else if (!regex.test(values.email)){
-        errors.email="This email is not valid!"
+        errors.email=<p style={{color:"red"}}>This email is not valid!</p> 
       }
       if(!values.password){
-        errors.password="Password required!";
+        errors.password= <p style={{color:"red"}}>Password required!</p>;
       } else if (values.password.length <4){
-        errors.password="Password must be more than 4 characters";
+        errors.password=<p style={{color:"red"}}>Password must be more than 4 characters</p>;
       }else if (values.password.length >8){
-        errors.password="Password cannot exceed more than 8 characters";
+        errors.password=<p style={{color:"red"}}> Password cannot exceed more than 8 characters</p>;
       }
       return errors;
       

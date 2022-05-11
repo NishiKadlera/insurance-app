@@ -1,7 +1,7 @@
 .border{
     border-style: groove;
     background-color:#0a649d;
-    width: 800px;
+    width: 600px;
     height: 300px;
     border-radius: 10px;
     
@@ -9,4 +9,7 @@
 .but{
     background-color: orange;
     color: black;
+}
+.forms{
+    left: 200px;
 }
