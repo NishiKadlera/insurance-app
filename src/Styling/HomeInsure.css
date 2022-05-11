@@ -1,7 +1,6 @@
 .Home1{   
     height: 500px; 
 }
-<<<<<<< HEAD
 .Home3{
     border-radius: 80%; 
     width: 150px;
@@ -16,37 +15,14 @@
 }
 .Home2{
     background-color: white;
-=======
-.color{
-    color: black;
-}
-.Home3{
-    border-radius: 80%;
-    height: 350px;
-}
-.Home5{
-    text-align: center;
-}
-.Home2{
-    background-color:  orange;
->>>>>>> 2d463311fec6081dd1dd318faa7ede9915a812e5
 }
 .types{
     text-align: center;
 }
 .types1{
     text-align: center;
-<<<<<<< HEAD
     color: orange;
 }
 .home4{
     height: 200px;
-}
-.but{
-    
-=======
-}
-.home4{
-    height: 500px;
->>>>>>> 2d463311fec6081dd1dd318faa7ede9915a812e5
 }

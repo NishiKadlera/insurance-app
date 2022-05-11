@@ -1,19 +1,10 @@
 import React from "react";
 import "../Styling/HomeInsure.css";
-<<<<<<< HEAD
 import Home1 from "../assets/House.webp";
 import household from "../assets/household1.webp";
 import notepad from "../assets/notepad.webp"
 import car from "../assets/car.webp"
 import claim from "../assets/claim.webp"
-=======
-import Home1 from "../assets/Home1.webp";
-import household from "../assets/household.webp";
-import notepad from "../assets/notepad.webp";
-import car from "../assets/car.webp";
-import claim from "../assets/claim.webp";
-
->>>>>>> 2d463311fec6081dd1dd318faa7ede9915a812e5
 import { Link } from "react-router-dom";
 // import { Button } from "bootstrap";
 
@@ -24,7 +15,6 @@ function HomeInsurance() {
      
       <div className="container-fluid Home2">
       <h1 className="Home5"> Home Insurance</h1>
-<<<<<<< HEAD
       <h4 className="types">Types of Home Insurance</h4>
   <div className="row Home1">
     <div className="col-md-4">
@@ -33,16 +23,6 @@ function HomeInsurance() {
   <div className="card-body">
     <h4 className="card-text types1">MY HOME</h4>
      <center><button className=" btn btn-primary"> <a href="https://rzp.io/i/3DFGiH2" style={{textDecoration:"none", color:"white"}}>Buy</a></button > &nbsp; <button className="btn btn-primary"><a href="claim1" style={{textDecoration:"none", color:"white"}}>Claim Here</a> </button> &nbsp; <button className="btn btn-primary"><a href="renew" style={{textDecoration:"none", color:"white"}}> FAQ's</a></button> </center>
-=======
-      <h3 className="types">Types of Home Insurance</h3>
-  <div className="row Home1">
-    <div className="col-md-4">
-    {/* <div className="card Home2"> */}
-  <img src={Home1} className="card-img-top Home4" alt="..."/>
-  <div className="card-body">
-    <h4 className="card-text types1">MY HOME</h4>
-     <center><button className="btn btn-dark"> <a href="https://rzp.io/i/3DFGiH2">Buy</a></button > &nbsp; <button className="btn btn-dark"><a href="claim1">Claim Here</a> </button> &nbsp; <button className="btn btn-dark"><a href="renew" >Additional Details</a></button> </center>
->>>>>>> 2d463311fec6081dd1dd318faa7ede9915a812e5
   </div>
 {/* </div> */}
     </div>
@@ -51,11 +31,7 @@ function HomeInsurance() {
   <img src={household} className="card-img-top Home4" alt="..."/>
   <div className="card-body">
     <h4 className="card-text types1">MY HOUSEHOLDS</h4>
-<<<<<<< HEAD
     <center><button className="btn btn-primary"> <a href="https://rzp.io/i/JWHptktM" style={{textDecoration:"none", color:"white"}}>Buy</a></button > &nbsp; <button className="btn btn-primary"><a href="claim1" style={{textDecoration:"none", color:"white"}}>Claim Here</a> </button> &nbsp; <button className="btn btn-primary"><a href="renew" style={{textDecoration:"none", color:"white"}}> FAQ's</a></button> </center>
-=======
-    <center><button className="btn btn-dark"> <a href="https://rzp.io/i/JWHptktM">Buy</a></button > &nbsp; <button className="btn btn-dark"><a href="claim1">Claim Here</a> </button> &nbsp; <button className="btn btn-dark"><a href="renew" >Additional Details</a></button> </center>
->>>>>>> 2d463311fec6081dd1dd318faa7ede9915a812e5
   </div>
 </div>
     {/* </div> */}
@@ -70,31 +46,19 @@ function HomeInsurance() {
     <div className="carousel-item active">
       <img src={notepad} className="d-block w-100 Home3" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
-<<<<<<< HEAD
         <h5 className="carcap">Useful add-ons to customize your policy for total protection</h5>
-=======
-        <h4 className="color">Useful add-ons to customize your policy for total protection</h4>
->>>>>>> 2d463311fec6081dd1dd318faa7ede9915a812e5
       </div>
     </div>
     <div className="carousel-item">
       <img src={car} className="d-block w-100 Home3" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
-<<<<<<< HEAD
         <h5 className="carcap">Options of coverage term from 1 day to 5 years</h5>
-=======
-        <h4 className="color">Options of coverage term from 1 day to 5 years</h4>
->>>>>>> 2d463311fec6081dd1dd318faa7ede9915a812e5
       </div>
     </div>
     <div className="carousel-item">
       <img src={claim} className="d-block w-100 Home3" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
-<<<<<<< HEAD
         <h5 className="carcap">Easy claim settlement</h5>
-=======
-        <h4 className="color">Easy claim settlement</h4>
->>>>>>> 2d463311fec6081dd1dd318faa7ede9915a812e5
       </div>
     </div>
   </div>
