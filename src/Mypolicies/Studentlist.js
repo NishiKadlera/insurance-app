@@ -33,7 +33,7 @@ export default class Studentlist extends Component {
       return (  
         <div>  
           <h4 align="center">My policies</h4>  
-          <table className="table table-bordered tab" style={{ marginTop: 10, backgroundColor: '#0a649d', color:'white' }}>  
+          <table className="table table-bordered tab" style={{ marginTop: 10, backgroundColor: '#0a649d', color:'white',width:'800px', left: '360px',position: 'relative' }}>  
             <thead style={{color:'black'}}>  
               <tr>  
                 {/* <th>Id</th>   */}

@@ -10,6 +10,13 @@
     background-color: orange;
     color: black;
 }
-.forms{
-    left: 200px;
+
+.PageHeading{
+    text-align: center;
+}
+
+.ip
+{
+    position: relative;
+    left: 55px;
 }

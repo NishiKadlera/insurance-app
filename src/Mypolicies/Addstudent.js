@@ -46,24 +46,24 @@ return (
         <FormGroup row>  
           {/* <Label for="Insurance type" sm={2}>Insurance Type</Label>   */}
           <Col sm={10}>  
-          <Input type="text"className='forms' name="Insurance_type" onChange={this.handleChange} value={this.state.Insurance_type} placeholder="Enter insurance type" />  
+          <Input  type="text"className='forms ip' name="Insurance_type" onChange={this.handleChange} value={this.state.Insurance_type} placeholder="Enter insurance type" />  
           </Col>  
         </FormGroup>  
         <FormGroup row>  
           {/* <Label for="Plan" sm={2}>Plan Type</Label>   */}
           <Col sm={10}>  
-            <Input type="text"className='forms' name="Plan_type" onChange={this.handleChange} value={this.state.Plan_type} placeholder="Enter Type of plan" />  
+            <Input type="text"className='forms ip' name="Plan_type" onChange={this.handleChange} value={this.state.Plan_type} placeholder="Enter Type of plan" />  
           </Col>  
         </FormGroup>  
         <FormGroup row>  
           {/* <Label for="Amount" sm={2}>Amount</Label>   */}
           <Col sm={10}>  
-            <Input type="text"className='forms' name="Amount" onChange={this.handleChange} value={this.state.Amount} placeholder="Enter Insurance amount" />  
+            <Input type="text"className='forms ip' name="Amount" onChange={this.handleChange} value={this.state.Amount} placeholder="Enter Insurance amount" />  
           </Col>  
         </FormGroup>  
         <FormGroup row>  
            <Col sm={10}>  
-            <Input type="text" className='forms' name="Payment_Period" onChange={this.handleChange} value={this.state.Payment_Period} placeholder="Enter Payment period" />  
+            <Input type="text" className='forms ip' name="Payment_Period" onChange={this.handleChange} value={this.state.Payment_Period} placeholder="Enter Payment period" />  
           </Col>  
         </FormGroup>  
       </Col>  
