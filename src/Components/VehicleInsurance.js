@@ -27,7 +27,7 @@ function VehicleInsurance()
     </div>
     <div className="col-md-4">
     {/* <div className="card"> */}
-  <img src={bike} className="card-img-top Home4" alt="..."/>
+  <img src={bike} className="card-img-top size Home4" alt="..."/>
   <div className="card-body">
     <h4 className="card-text types1">TWO WHEELER</h4>
     <center><button className="btn btn-primary"> <a href="https://rzp.io/i/JWHptktM" style={{textDecoration:"none", color:"white"}}>Buy</a></button > &nbsp; <button className="btn btn-primary"><a href="claim1" style={{textDecoration:"none", color:"white"}}>Claim Here</a> </button> &nbsp; <button className="btn btn-primary"><a href="renew" style={{textDecoration:"none", color:"white"}}> FAQ's</a></button> </center>

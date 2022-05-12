@@ -2,9 +2,9 @@
     height: 500px; 
 }
 .Home3{
-    border-radius: 80%; 
+    /* border-radius: 80%;  */
     width: 150px;
-    height: 300px;
+    height: 320px;
 }
 .carcap{
     color: orange;
@@ -25,4 +25,7 @@
 }
 .home4{
     height: 200px;
+}
+.size{
+    height: 320px;
 }

@@ -17,19 +17,37 @@ Password:''
 Addstudent=()=>{  
   axios.post('https://localhost:44316/Api/Insurances', {Insurance_type:this.state.Insurance_type,  
   Plan_type:this.state.Plan_type, Amount:this.state.Amount, Payment_Period:this.state.Payment_Period,})  
-.then(json => {  
-if(json.data.Status==='Success'){  
-  console.log(json.data.Status);  
-  alert("Data Save Successfully");  
-this.props.history.push('/Studentlist')  
-}  
-else{  
-alert('Data Saved Successfully');  
-debugger;  
-this.props.history.push('/Studentlist')  
-}  
-})  
-}  
+  .then(json => {  
+    // if(json.data.Status==='Success'){  
+    //   console.log(json.data.Status);  
+    //   alert("Data Save Successfully");  
+    // this.props.history.push('/Studentlist')  
+    // // 
+    // }  
+    // else{  
+    // alert('Request Sent Succesfully');  
+    // debugger;  
+    // this.props.history.push('/Studentlist')  
+    // }  
+    
+    alert("Data Saved Successfully");
+    window.location.reload(false)
+    })  
+    }  
+// .then(json => {  
+// if(json.data.Status==='Success'){  
+//   console.log(json.data.Status);  
+//   alert("Data Save Successfully");  
+// this.props.history.push('/Studentlist')  
+// }  
+// else{  
+// alert('Data Saved Successfully');  
+// debugger;  
+// this.props.history.push('/Studentlist') 
+// window.location.reload(false) 
+// }  
+// })  
+// }  
    
 handleChange= (e)=> {  
 this.setState({[e.target.name]:e.target.value});  
