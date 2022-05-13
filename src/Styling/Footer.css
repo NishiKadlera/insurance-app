@@ -1,10 +1,10 @@
-.foot{
+
+.footer-place{
     background-color: #0a649d;
     position: relative;
+    bottom: 0;
+
 }
-/* .footer-place{
-    position: fixed;
-} */
 .font{
     font-size: 30px;
 }

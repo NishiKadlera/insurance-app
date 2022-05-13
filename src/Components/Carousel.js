@@ -9,7 +9,7 @@ import Reviews from "./Reviews";
 function Carousel() {
   return (
     <div>
-      <div className="caro">
+      <div className="container-fluid">
   <div className="row caro">
     <div className="col-md-6">
       <div className="caro1">

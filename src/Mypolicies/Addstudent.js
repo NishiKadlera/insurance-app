@@ -1,9 +1,11 @@
 import React from 'react';  
  import axios from 'axios'; 
- import "./Addstu.css" 
+ import "./Addstu.css" ;
+ import { Navigate, useNavigate } from 'react-router-dom';
+ import { Link } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.css';
-import { Container, Col, Form, Row, FormGroup, Label, Input, Button } from 'reactstrap';  
+import { Container, Col, Form, Row, FormGroup, Label, Input, Button, Select, Option } from 'reactstrap';  
 class Addstudent extends React.Component{  
 constructor(props){  
 super(props)  
@@ -14,40 +16,31 @@ Username:'',
 Password:''  
 }  
 }   
+
+
 Addstudent=()=>{  
+  // var Navigate=useNavigate();
   axios.post('https://localhost:44316/Api/Insurances', {Insurance_type:this.state.Insurance_type,  
   Plan_type:this.state.Plan_type, Amount:this.state.Amount, Payment_Period:this.state.Payment_Period,})  
   .then(json => {  
     // if(json.data.Status==='Success'){  
     //   console.log(json.data.Status);  
     //   alert("Data Save Successfully");  
-    // this.props.history.push('/Studentlist')  
-    // // 
+    // this.props.history.push('/mypolicy')  
+    
     // }  
     // else{  
     // alert('Request Sent Succesfully');  
     // debugger;  
-    // this.props.history.push('/Studentlist')  
+    // this.props.history.push('/mypolicy')  
     // }  
     
     alert("Data Saved Successfully");
+    // Navigate('/mypolicy')
     window.location.reload(false)
     })  
     }  
-// .then(json => {  
-// if(json.data.Status==='Success'){  
-//   console.log(json.data.Status);  
-//   alert("Data Save Successfully");  
-// this.props.history.push('/Studentlist')  
-// }  
-// else{  
-// alert('Data Saved Successfully');  
-// debugger;  
-// this.props.history.push('/Studentlist') 
-// window.location.reload(false) 
-// }  
-// })  
-// }  
+ 
    
 handleChange= (e)=> {  
 this.setState({[e.target.name]:e.target.value});  
@@ -64,24 +57,30 @@ return (
         <FormGroup row>  
           {/* <Label for="Insurance type" sm={2}>Insurance Type</Label>   */}
           <Col sm={10}>  
-          <Input  type="text"className='forms ip' name="Insurance_type" onChange={this.handleChange} value={this.state.Insurance_type} placeholder="Enter insurance type" />  
+          <select className='form-control ip' required="required" name="Insurance_type" onChange={this.handleChange} value={this.state.Insurance_type} data-error="Enter insurance type">
+          <option>--Enter insurance type--</option>
+            <option>Home Insurance</option>
+            <option>Health Insurance</option>
+            <option>Motor Insurance</option>
+            <option>Vehicle Insurance</option>
+            </select> 
           </Col>  
         </FormGroup>  
         <FormGroup row>  
           {/* <Label for="Plan" sm={2}>Plan Type</Label>   */}
           <Col sm={10}>  
-            <Input type="text"className='forms ip' name="Plan_type" onChange={this.handleChange} value={this.state.Plan_type} placeholder="Enter Type of plan" />  
+            <Input type="text"className='forms ip'  required="required" name="Plan_type" onChange={this.handleChange} value={this.state.Plan_type} data-error="Enter Type of plan" />  
           </Col>  
         </FormGroup>  
         <FormGroup row>  
           {/* <Label for="Amount" sm={2}>Amount</Label>   */}
           <Col sm={10}>  
-            <Input type="text"className='forms ip' name="Amount" onChange={this.handleChange} value={this.state.Amount} placeholder="Enter Insurance amount" />  
+            <Input type="text"className='forms ip'  required="required" name="Amount" onChange={this.handleChange} value={this.state.Amount} data-error="Enter Insurance amount" />  
           </Col>  
         </FormGroup>  
         <FormGroup row>  
            <Col sm={10}>  
-            <Input type="text" className='forms ip' name="Payment_Period" onChange={this.handleChange} value={this.state.Payment_Period} placeholder="Enter Payment period" />  
+            <Input type="text" className='forms ip'  required="required" name="Payment_Period" onChange={this.handleChange} value={this.state.Payment_Period} data-error="Enter Payment period" />  
           </Col>  
         </FormGroup>  
       </Col>  
@@ -90,7 +89,7 @@ return (
           <Col sm={5}>  
           </Col>  
           <Col sm={1}>  
-          <button type="button" onClick={this.Addstudent} className="but">Submit</button>
+          <button type="button" onClick={this.Addstudent} className="but"><Link to="/mypolicy">Submit</Link></button>
           </Col>   &nbsp;  &nbsp;  &nbsp; 
           <Col sm={1}>  
             <button className='but'>Cancel</button>{' '}  

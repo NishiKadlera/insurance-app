@@ -12,10 +12,12 @@ import HealthInsurance from "./Components/HealthInsurance";
 import Claim from "./Components/HomeClaim";
 import Renew from "./Components/Renew";
 import About1 from "./Components/AboutUs";
-
 import Policy from "./Components/Mypolicies";
 import Enquiry from "./Components/Enquire";
 import HomeClaim from "./Components/HomeClaim";
+import Read from "./Mypolicies/Read";
+import AddDetails from "./Mypolicies/Addstudent";
+import Update from "./Mypolicies/Update";
 
 function App() {
   return (
@@ -38,7 +40,11 @@ function App() {
           <Route path="mypolicy" element={<Policy />} />
           <Route path="enquire" element={<Enquiry />} />
           <Route path="Homeclaim" element={<HomeClaim />} />
+          <Route path="/read/:id" element={<Read />} />
+          <Route path="/adddetails/:id" element={<AddDetails />} />
+          <Route path="/update/:id" element={<Update />} />
       </Routes>
+      {/* <Update /> */}
       <Footer/>
   
 

@@ -6,7 +6,7 @@ function Policy(){
     return(
         <div>
             <div><Policies/></div><br />
-            <div><AddDetails/></div>
+            {/* <div><AddDetails/></div> */}
 
         </div>
     )
