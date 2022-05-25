@@ -6,21 +6,11 @@ class Table extends Component {
   constructor(props) {  
     super(props);  
     }  
-      
-    // DeleteStudent= () =>{  
-    //  axios.delete('http://localhost:44357/Api/Student/Deletestudent?id='+this.props.obj.Id)  
-    // .then(json => {  
-    // if(json.data.Status==='Delete'){  
-    // alert('Record deleted successfully!!');  
-    // }  
-    // })  
-    // }  
+  
   render() {  
     return (  
         <tr>  
-          {/* <td>  
-            {this.props.obj.Id}  
-          </td> */}
+          
           <td>  
             {this.props.obj.Insurance_type}  
           </td>  
@@ -33,15 +23,7 @@ class Table extends Component {
           <td>  
             {this.props.obj.Payment_Period}  
           </td>
-          {/* <td>  
-            {this.props.obj.Password}  
-          </td>   */}
-          {/* <td>  
-          <Link to={"/edit/"+this.props.obj.Id} className="btn btn-success">Edit</Link>  
-          </td>  
-          <td>  
-            <button type="button" onClick={this.DeleteStudent} className="btn btn-danger">Delete</button>  
-          </td>   */}
+         
         </tr>  
     );  
   }  

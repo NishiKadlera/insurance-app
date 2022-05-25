@@ -13,7 +13,9 @@ const Insurance=()=> {
   },[])
 
    const Deletedata= async(id)=>{
-     alert(id)
+     window. confirm("Are you sure?");
+    //  alert(conf);
+    alert( "Details deleted successfully for the ID " + id)
     await axios.delete(`https://localhost:44316/api/Insurances/${id}`);
     getdata()
   }
@@ -22,7 +24,7 @@ const Insurance=()=> {
         <div>  
         <h4 align="center">My policies</h4>
         <h3>You can perform the CRUD operation here!</h3>
-          <table className="table table-bordered tab" style={{ marginTop: 10, backgroundColor: '#0a649d', color:'white',width:'800px', left: '360px',position: 'relative' }}>  
+          <table className="table table-bordered tab" style={{ marginTop: 10, backgroundColor: '#0a649d', color:'white',width:'850px', left: '360px',position: 'relative' }}>  
             <thead style={{color:'black'}}>  
               <tr>  
                 {/* <th>Id</th>   */}
@@ -30,7 +32,7 @@ const Insurance=()=> {
                 <th>Plan_type</th>  
                 <th>Amount</th> 
                 <th>Payment_Period</th> 
-                <th>Buttons</th>
+                <th>Operations</th>
                 {/* <th>Password</th>   */}
                 {/* <th colSpan="4">Action</th>   */}
               </tr>  
